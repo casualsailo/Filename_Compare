@@ -130,19 +130,18 @@ namespace Filename_Compare
                 {
                     if (entry.Value.isFound == false)
                     {
-                        outputFile.Write("{0}\t\t\t{1}", entry.Key, entry.Value.filePath);
+                        outputFile.Write("{0}\t\t\tSource: {1}", entry.Key, entry.Value.filePath);
                         if (File.Exists(outputDirectory + "\\" + entry.Key))
                         {
                             randomNum = random.Next();
-                            outputFile.Write("\t!!!FILENAME ALREADY EXISTS IN OUTPUT!!!\t\tSource: {0}\tOutput: {1}", entry.Value.filePath, outputDirectory + "\\" + Path.GetFileNameWithoutExtension(entry.Value.filePath) + "-" + randomNum.ToString() + Path.GetExtension(entry.Value.filePath));
+                            outputFile.Write("\t!!!FILENAME ALREADY EXISTS IN OUTPUT!!!\t\tOutput: {0}", outputDirectory + "\\" + Path.GetFileNameWithoutExtension(entry.Value.filePath) + "-" + randomNum.ToString() + Path.GetExtension(entry.Value.filePath));
                             File.Copy(entry.Value.filePath, outputDirectory + "\\" + Path.GetFileNameWithoutExtension(entry.Value.filePath) + "-" + randomNum.ToString() + Path.GetExtension(entry.Value.filePath));
                         }
                         else
                         {
-                            outputFile.Write("\tSource: {0}", entry.Value.filePath);
                             File.Copy(entry.Value.filePath, outputDirectory + "\\" + entry.Key);
                         }
-                        outputFile.Write("\n");
+                        outputFile.Write(Environment.NewLine);
                     }
                 }
             }

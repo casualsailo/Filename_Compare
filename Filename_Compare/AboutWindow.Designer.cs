@@ -96,9 +96,9 @@
             this.versionTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.versionTextBox.Location = new System.Drawing.Point(12, 27);
             this.versionTextBox.Name = "versionTextBox";
-            this.versionTextBox.Size = new System.Drawing.Size(71, 15);
+            this.versionTextBox.Size = new System.Drawing.Size(81, 15);
             this.versionTextBox.TabIndex = 1;
-            this.versionTextBox.Text = "Version: 1.1";
+            this.versionTextBox.Text = "Version: 1.1.1";
             // 
             // AboutWindow
             // 
