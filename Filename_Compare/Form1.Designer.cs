@@ -39,7 +39,7 @@
             this.textBox_output = new System.Windows.Forms.TextBox();
             this.label_output_directory = new System.Windows.Forms.Label();
             this.folderBrowser_source = new System.Windows.Forms.FolderBrowserDialog();
-            this.folderBrowser_destination = new System.Windows.Forms.FolderBrowserDialog();
+            this.folderBrowser_target = new System.Windows.Forms.FolderBrowserDialog();
             this.checkBox_subfolder = new System.Windows.Forms.CheckBox();
             this.checkBox_IgnoreSourceExt = new System.Windows.Forms.CheckBox();
             this.checkBox_IgnoreTargetExt = new System.Windows.Forms.CheckBox();
@@ -68,18 +68,18 @@
             this.label_source.AutoSize = true;
             this.label_source.Location = new System.Drawing.Point(10, 40);
             this.label_source.Name = "label_source";
-            this.label_source.Size = new System.Drawing.Size(89, 13);
+            this.label_source.Size = new System.Drawing.Size(76, 13);
             this.label_source.TabIndex = 2;
-            this.label_source.Text = "Source Directory:";
+            this.label_source.Text = "Source Folder:";
             // 
             // label_target
             // 
             this.label_target.AutoSize = true;
             this.label_target.Location = new System.Drawing.Point(10, 90);
             this.label_target.Name = "label_target";
-            this.label_target.Size = new System.Drawing.Size(86, 13);
+            this.label_target.Size = new System.Drawing.Size(73, 13);
             this.label_target.TabIndex = 3;
-            this.label_target.Text = "Target Directory:";
+            this.label_target.Text = "Target Folder:";
             // 
             // button_source
             // 
@@ -235,7 +235,7 @@
         private System.Windows.Forms.TextBox textBox_output;
         private System.Windows.Forms.Label label_output_directory;
         private System.Windows.Forms.FolderBrowserDialog folderBrowser_source;
-        private System.Windows.Forms.FolderBrowserDialog folderBrowser_destination;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowser_target;
         private System.Windows.Forms.CheckBox checkBox_subfolder;
         private System.Windows.Forms.CheckBox checkBox_IgnoreSourceExt;
         private System.Windows.Forms.CheckBox checkBox_IgnoreTargetExt;

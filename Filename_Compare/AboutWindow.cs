@@ -12,7 +12,7 @@ namespace Filename_Compare
 {
     public partial class AboutWindow : Form
     {
-        string[] about1 = new string[4];
+        string[] about1 = new string[5];
         StringBuilder about = new StringBuilder();
         public AboutWindow()
         {
@@ -22,6 +22,7 @@ namespace Filename_Compare
 
         private void showdescription()
         {
+            about1[4] = "v1.1.2\t11/09/16\r\n\u2022 Small text changes\r\n\r\n";
             about1[3] = "v1.1.1\t11/09/16\r\n\u2022 Fixed output text file formatting\r\n\r\n";
             about1[2] = "v1.1.0\t11/09/16\r\n\u2022 Added feature to individually ignore source/target folder filename file extensions\r\n\u2022 Added Help/About Menu\r\n\r\n";
             about1[1] = "v1.0.5\t11/08/16\r\n\u2022 Added feature to search all subfolders\r\n\r\n";

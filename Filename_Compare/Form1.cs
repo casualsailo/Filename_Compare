@@ -33,10 +33,10 @@ namespace Filename_Compare
         private void button_destination_Click(object sender, EventArgs e)
         {
             // put selected folder's path to destination textbox
-            result = folderBrowser_destination.ShowDialog();
+            result = folderBrowser_target.ShowDialog();
             if (result == DialogResult.OK)
             {
-                textBox_target.Text = folderBrowser_destination.SelectedPath;
+                textBox_target.Text = folderBrowser_target.SelectedPath;
             }
         }
 
@@ -48,17 +48,17 @@ namespace Filename_Compare
 
             if (!Directory.Exists(sourceDirectory))
             {
-                MessageBox.Show("Source directory does not exist!");
+                MessageBox.Show("Source folder does not exist!");
                 return;
             }
             if (!Directory.Exists(destinationDirectory))
             {
-                MessageBox.Show("Destination directory does not exist!");
+                MessageBox.Show("Target folder does not exist!");
                 return;
             }
             if (sourceDirectory == destinationDirectory)
             {
-                MessageBox.Show("Source and destination are the same!");
+                MessageBox.Show("Source and target are the same!");
                 return;
             }
 
