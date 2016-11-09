@@ -1,0 +1,12 @@
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\bin\Debug\FileNameCompare.exe.config
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\bin\Debug\FileNameCompare.exe
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\bin\Debug\FileNameCompare.pdb
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\obj\Debug\FileNameCompare.csprojResolveAssemblyReference.cache
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\obj\Debug\FileNameCompare.Properties.Resources.resources
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\obj\Debug\FileNameCompare.csproj.GenerateResource.Cache
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\obj\Debug\FileNameCompare.exe
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\obj\Debug\FileNameCompare.pdb
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\obj\Debug\FileNameCompare.FileInfo.resources
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\bin\Debug\Filename_Compare.exe.config
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\obj\Debug\Filename_Compare.exe
+C:\Users\darrick.t\Downloads\FileNameCompare\FileNameCompare\obj\Debug\Filename_Compare.pdb
