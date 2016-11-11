@@ -51,6 +51,8 @@
             // 
             // textBox_source
             // 
+            this.textBox_source.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox_source.Location = new System.Drawing.Point(10, 55);
             this.textBox_source.Name = "textBox_source";
             this.textBox_source.Size = new System.Drawing.Size(320, 20);
@@ -58,6 +60,8 @@
             // 
             // textBox_target
             // 
+            this.textBox_target.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox_target.Location = new System.Drawing.Point(10, 105);
             this.textBox_target.Name = "textBox_target";
             this.textBox_target.Size = new System.Drawing.Size(320, 20);
@@ -83,6 +87,7 @@
             // 
             // button_source
             // 
+            this.button_source.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button_source.Location = new System.Drawing.Point(280, 35);
             this.button_source.Name = "button_source";
             this.button_source.Size = new System.Drawing.Size(50, 20);
@@ -93,6 +98,7 @@
             // 
             // button_target
             // 
+            this.button_target.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button_target.Location = new System.Drawing.Point(280, 85);
             this.button_target.Name = "button_target";
             this.button_target.Size = new System.Drawing.Size(50, 20);
@@ -103,6 +109,8 @@
             // 
             // button_compare
             // 
+            this.button_compare.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button_compare.Location = new System.Drawing.Point(5, 240);
             this.button_compare.Name = "button_compare";
             this.button_compare.Size = new System.Drawing.Size(325, 25);
@@ -122,6 +130,8 @@
             // 
             // textBox_output
             // 
+            this.textBox_output.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox_output.Location = new System.Drawing.Point(65, 210);
             this.textBox_output.Name = "textBox_output";
             this.textBox_output.Size = new System.Drawing.Size(265, 20);
@@ -212,6 +222,7 @@
             this.Controls.Add(this.textBox_source);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MinimumSize = new System.Drawing.Size(350, 310);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Filename Compare";

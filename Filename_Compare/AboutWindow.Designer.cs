@@ -98,7 +98,7 @@
             this.versionTextBox.Name = "versionTextBox";
             this.versionTextBox.Size = new System.Drawing.Size(81, 15);
             this.versionTextBox.TabIndex = 1;
-            this.versionTextBox.Text = "Version: 1.1.2";
+            this.versionTextBox.Text = "Version: 1.1.3";
             // 
             // AboutWindow
             // 
